@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #BCCEF8, #CDFCF6);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar {
+    background-color: #153462;
+}
+
+.logo {
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+li, a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+li {
+    display: inline;
+}
+
+.dropdown-item {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 60px;
+    padding-right: 30px;
+    
+    
+}
+
+a:hover {
+    color: #4FA095;
+}
+
+.headline {
+    padding-top: 50px;
+}
+
+.cell {
+    border-radius: 10%;
+
+    object-fit: cover;
+}
+
+.main-carousel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+p {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}

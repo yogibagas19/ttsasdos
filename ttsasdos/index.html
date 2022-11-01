@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <title>Court Rider</title>
+</head>
+<body>
+    <nav class="navbar">
+    <header>
+    <img class="logo" src="/img/logo.png" alt="Court_Rider">
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="/linktree/linktree/index.html">Linktree</a></li>
+        <li><a class="dropdown-item" href="/login/index.html">Login</a></li>
+      </ul>
+    </header>
+</nav>
+    <div class="main-carousel">
+        <div class="cell"><img src="/img/1.jpg" alt="Puma Shoes"></div>
+        <div class="cell"><img src="/img/2.jpg" alt="Puma Shoes"></div>
+        <div class="cell"><img src="/img/3.jpg" alt="Puma Shoes"></div>
+        <div class="cell"><img src="/img/4.png" alt="Puma Shoes"></div>
+        <div class="cell"><img src="/img/5.png" alt="Puma Shoes"></div>
+    </div>
+    <br>
+    <br>
+    <p class="head  line">Buktikan Kemampuanmu.</p>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+        $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        wrapAround: true,
+        freeScroll: true
+        });
+    </script>
+
+</body>
+</html>
